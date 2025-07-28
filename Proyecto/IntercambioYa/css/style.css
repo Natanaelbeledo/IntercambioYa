@@ -1,0 +1,106 @@
+/* Tipografía base */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  color: #000e2a;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos del encabezado */
+.header {
+  background-color: #0055aa;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  max-height: 80px;
+}
+
+/* Navegación */
+nav a {
+  color: white;
+  margin: 0 10px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sección de bienvenida */
+.welcome-section {
+  background-color: #ffffff;
+  color: #000e2a;
+  text-align: center;
+  padding: 6rem 2rem;
+}
+
+.welcome-section h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.welcome-section p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+
+/* Pie de página */
+.footer {
+  background-color: #0055aa;
+  color: #ffffff;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.footer h2 {
+  margin-bottom: 1rem;
+}
+
+.contact-icons {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-icons li {
+  margin: 0.5rem 0;
+}
+
+.contact-icons a {
+  color: white;
+  text-decoration: none;
+  margin-left: 0.5rem;
+}
+
+.contact-icons i {
+  width: 20px;
+}
+.bienvenida-titulo {
+  color: #0055aa;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.btn-intercambio {
+  background-color: #0055aa;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.btn-intercambio:hover {
+  background-color: #004080;
+}
